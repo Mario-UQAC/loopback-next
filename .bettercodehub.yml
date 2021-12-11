@@ -2,9 +2,13 @@ component_depth: 1
 languages:
 - name: typescript
   production:
-    include:
-      - /extensions/.*
-      - /packages/.*
+    exclude:
+      - /acceptance/.*
+      - /bin/.*
+      - /docs/.*
+      - /examples/.*
+      - /fixtures/.*
+      - /sandbox/.*
   test:
     include:
       - .*/__tests__/.*

@@ -9,6 +9,7 @@ languages:
       - /examples/.*
       - /fixtures/.*
       - /sandbox/.*
+      - .*/__tests__/.*
   test:
     include:
       - .*/__tests__/.*
